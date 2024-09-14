@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1038350774945",
+    "project_id": "emmieai-1c5b9",
+    "storage_bucket": "emmieai-1c5b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038350774945:android:8529f04afa59a2470f76e0",
+        "android_client_info": {
+          "package_name": "com.enactify.emmie_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmsE-B9d4evJXfJfUN9DOfaifWS3uByEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,514 @@
+{
+   "online":"Online",
+   "@online":{
+      "description":"The online status indicator"
+   },
+   "offline": "Offline",
+   "@offline":{
+      "description":"The offline status indicator"
+   },
+   "typing": "Typing...",
+   "@typing":{
+      "description":"The typing in progress indicator"
+   },
+   "clearMessages":"Clear Messages",
+   "@clearMessages":{
+      "description":"Label to clear all messages"
+   },
+   "welcomeMessage":"Hello! 👋🏻 I'm Emmie AI, your personal assistant ready to help you. Feel free to ask about any topic of interest. Let's get started by exploring the topics below.",
+   "@welcomeMessage":{
+      "description":"Emmie AI welcome message"
+   },
+   "academics":"Ace Academics",
+   "@academics":{
+      "description":"heading for academics card"
+   },
+   "academicsDescription":"Embrace profound guidance and assistance for all your school assignments",
+   "@academicsDescription":{
+      "description":"description for academics card"
+   },
+   "ideas":"Generate Ideas",
+   "@ideas":{
+      "description":"heading for ideas card"
+   },
+   "ideasDescription":"Generate innovative, feasible business ideas with Emmie AI's assistance",
+   "@ideasDescription":{
+      "description":"description for ideas card"
+   },
+   "interview":"Master Interviews",
+   "@interview":{
+      "description":"heading for interview card"
+   },
+   "interviewDescription":"Master your interview in any field with Emmie AI's expert guidance",
+   "@interviewDescription":{
+      "description":"description for interview card"
+   },
+   "languages":"Learn Languages",
+   "@languages":{
+      "description":"heading for languages card"
+   },
+   "languagesDescription":"Explore Emmie AI's language support for learning and translation",
+   "@languagesDescription":{
+      "description":"description for languages card"
+   },
+   "emails":"Compose Emails",
+   "@emails":{
+      "description":"heading for emails card"
+   },
+   "emailsDescription":"Unleash your Email writing skills. Compose impressive and effective email",
+   "@emailsDescription":{
+      "description":"description for emails card"
+   },
+   "advice":"Get Advice",
+   "@advice":{
+      "description":"heading for advice card"
+   },
+   "adviceDescription":"Embark on a journey of infinite wisdom: Ask me for advice on anything",
+   "@adviceDescription":{
+      "description":"description for advice card"
+   },
+   "changesUpdatedAlert":"Changes successfully updated",
+   "@changesUpdatedAlert":{
+      "description":"User data changes alert"
+   },
+   "recording":"Recording...",
+   "@recording":{
+      "description":"Indicates that recording is in progress"
+   },
+   "voiceAssistance":"Voice Assistance",
+   "@voiceAssistance":{
+      "description":"Voice assistance text"
+   },
+   "enableVoiceAssistance":"Enable Voice Assistance",
+   "@enableVoiceAssistance":{
+      "description":"Toggle voice assistance feature"
+   },
+   "notifications":"Notifications",
+   "@notifications":{
+      "description":"Manage app notifications"
+   },
+   "deleteAll":"Delete All",
+   "@deleteAll":{
+      "description":"Delete all items"
+   },
+   "deleteNotifications":"Delete Notifications",
+   "@deleteNotifications":{
+      "description":"Prompts user to delete all notifications"
+   },
+   "delete":"Delete",
+   "@delete":{
+      "description":"Delete current item(s)"
+   },
+   "settings":"Settings",
+   "@settings":{
+      "description":"App settings"
+   },
+   "subscriptionStatus":"Subscription Status",
+   "@subscriptionStatus":{
+      "description":"Check subscription status"
+   },
+   "preferences":"Preferences",
+   "@preferences":{
+      "description":"App preferences"
+   },
+   "appearance":"Appearance",
+   "@appearance":{
+      "description":"Manage app appearance"
+   },
+   "language":"Language",
+   "@language":{
+      "description":"Change app language"
+   },
+   "general":"General",
+   "@general":{
+      "description":"App general settings"
+   },
+   "share":"Share",
+   "@share":{
+      "description":"Share app"
+   },
+   "signOut":"Sign Out",
+   "@signOut":{
+      "description":"Sign out from the app"
+   },
+   "cancel":"Cancel",
+   "@cancel":{
+      "description":"Cancel the current action"
+   },
+   "manageNotifications":"Manage Notifications",
+   "@manageNotifications":{
+      "description":"Manage app notifications"
+   },
+   "muteNotifications":"Mute Notifications",
+   "@muteNotifications":{
+      "description":"Mute app notifications"
+   },
+   "pauseNotifications":"Pause Notifications",
+   "@pauseNotifications":{
+      "description":"Pause app notifications"
+   },
+   "changeAppAppearance":"Change Appearance",
+   "@changeAppAppearance":{
+      "description":"Change app apparence"
+   },
+   "switchToDarkMode":"Switch to Dark Mode",
+   "@switchToDarkMode":{
+      "description":"Switch to dark mode"
+   },
+   "backToLightMode":"Back to Light Mode",
+   "@backToLightMode":{
+      "description":"Switch back to light mode"
+   },
+   "connectionEstablished":"Connection established. Welcome back",
+   "@connectionEstablishedMessage":{
+      "description":"Welcome back message upon successful connection"
+   },
+   "noInternetConnection":"You have no internet connection",
+   "@noInternetConnectionMessage":{
+      "description":"Indicates no internet connection"
+   },
+   "notificationsHelpText":"You can view or delete the notification by tapping on it",
+   "@notificationsHelpText":{
+      "description":"Description about managing notifications"
+   },
+   "youAreOnFreeVersion":"You are on a free version",
+   "@youAreOnFreeVersion":{
+      "description":"Indicates that the user is on the free version"
+   },
+   "explorePremiumFeatures":"Explore premium features",
+   "@explorePremiumFeatures":{
+      "description":"Discover premium features"
+   },
+   "chatTextFieldPlaceholder":"Send a message",
+   "@chatTextFieldPlaceholder":{
+      "description":"user textfield to chat with Emmie AI"
+   },
+   "enableVoiceAssistanceDescription":"If enabled, Emmie AI will be able to read responses to you.",
+   "@enableVoiceAssistanceDescription":{
+      "description":"Enable Emmie AI to read responses"
+   },
+   "muteNotificationsDescription":"If enabled, you will receive notifications only inside the app.",
+   "@muteNotificationsDescription":{
+      "description":"Receive notifications only inside the app"
+   },
+   "pauseNotificationsDescription":"If enabled, you will not receive notifications from the app.",
+   "@pauseNotificationsDescription":{
+      "description":"Disable notifications from the app"
+   },
+   "switchThemeModeDescription":"You can switch between light and dark mode.",
+   "@switchThemeModeDescription":{
+      "description":"Toggle between light and dark mode"
+   },
+   "signOutDialogMessage":"You are about to sign out. You can sign in again later.",
+   "@signOutDialogMessage":{
+      "description":"Sign out from the app temporarily"
+   },
+   "deleteNotificatonsDialogMessage":"Are you sure you want to delete all the notifications?",
+   "@deleteNotificatonsDialogMessage":{
+      "description":"Deletes all the existing user notifications"
+   },
+   "currentLanguage":"Selected Language",
+   "@currentLanguage":{
+      "description":"Current user language"
+   },
+   "changeLanguage":"Change Language",
+   "@changeLanguage":{
+      "description":"List of available app languages"
+   },
+   "emmieAiNotAvailable":"Emmie AI is currently not available",
+   "@emmieAiNotAvailable":{
+      "description":"Emmie AI error message on app init"
+   },
+   "messageCopied":"Message copied to clipboard",
+   "@messageCopied":{
+      "description":"Alert for copying Emmie AI response"
+   },
+   "noNotificationsYet":"No notifications yet",
+   "@noNotificationsYet":{
+      "description":"Empty notifications label"
+   },
+   "noNotificationsDescription":"As soon as you receive notifications, you'll see them here.",
+   "@noNotificationsDescription":{
+      "description":"Empty notifications description"
+   },
+   "userRemainingMessages":"You have {numOfMessages} messages left for today  ",
+   "@userRemainingMessage":{
+      "description":"The number of remaining messages user can send in a day",
+      "placeholders": {
+         "numOfMessages": {
+            "type": "String"
+         }
+      }
+   },
+   "watchAdButtonClick":"Watch Ad",
+   "@watchAdButtonClick":{
+      "description":"A button click for watching ad."
+   },
+   "recordingButtonInstruction":"Press and hold to record, release to send",
+   "@recordingButtonInstruction":{
+      "description":"Recording button instruction"
+   },
+   "recordingIsPremiumFeature":"Recording is a premium feature. Please consider upgrading to premium.",
+   "@recordingIsPremiumFeature":{
+      "description":"User instruction to use the voice recording feature"
+   },
+   "voiceAssistanceisPremiumFeature":"Voice assistance is a premium feature. Please consider upgrading to premium.",
+   "@voiceAssistanceisPremiumFeature":{
+      "description":"User instruction to use the voice assistance feature"
+   },
+   "rateMyAppTitle":"Rate Emmie AI",
+   "@rateMyAppTitle":{
+      "description":"Rate my app title"
+   },
+   "rateMyAppMessage1":"We hope you're enjoying Emmie AI! Could you take a moment to rate us on the app store? Your feedback means a lot to us. Thank you!",
+   "@rateMyAppMessage1":{
+      "description":"Rate my app message"
+   },
+   "rateMyAppRateButton":"RATE EMMIE AI",
+   "@rateMyAppRateButton":{
+      "description":"Rate my app rate button"
+   },
+   "rateMyAppNoButton":"NO THANKS",
+   "@rateMyAppNoButton":{
+      "description":"Rate my app no button"
+   },
+   "rateMyAppLaterButton":"MAYBE LATER",
+   "@rateMyAppLaterButton":{
+      "description":"Rate my app later button"
+   },
+   "requestAccountDeletionTitle":"Request Account Deletion",
+   "@requestAccountDeletionTitle":{
+      "description":"Request account deletion title"
+   },
+   "requestAccountDeletionMessage":"Your account will be scheduled for deletion, and your data will be permanently lost. Do you want to proceed?",
+   "@requestAccountDeletionMessage":{
+      "description":"Request account deletion message"
+   },
+   "proceedButtonText":"Proceed",
+   "@proceedButtonText":{
+      "description":"Proceed button text"
+   },
+   "youAreOnPremium":"You are on premium",
+   "@youAreOnPremium":{
+      "description":"You are on premium version text"
+   },
+   "viewSubscriptions":"View subscriptions",
+   "@viewSubscriptions":{
+      "description":"View subscriptions text"
+   },
+   "rateApp":"Rate App",
+   "@rateAppText":{
+      "description":"Rate app text"
+   },
+   "poweredByChatGpt":"Powered by ChatGPT",
+   "@poweredByChatGpt":{
+      "description":"Powered by ChatGPT text"
+   },
+   "appVersion":"Version",
+   "@appVersion":{
+      "description":"Version text"
+   },
+   "checkOutEmmieAI":"Hey, Check out Emmie AI",
+   "@checkOutEmmieAi":{
+      "description":"check out Emmie AI text"
+   },
+   "okButtonText":"OK",
+   "@okButtonText":{
+      "description":"Ok button text"
+   },
+   "rateMyAppMessage2":"Do you like Emmie AI? Please take a little bit of your time to leave us a rating.",
+   "@rateMyAppMessage2":{
+      "description":"Rate my app message"
+   },
+   "goPremium":"Go Premium and Get",
+   "@goPremium":{
+      "description":"Go premium text"
+   },
+   "fullAccess":"Full Access",
+   "@fullAccess":{
+      "description":"Full access text"
+   },
+   "unlimitedMessages":"Unlimited Messages",
+   "@unlimitedMessages":{
+      "description":"Unlimited messages text"
+   },
+   "multipleLanguages":"Multiple Languages",
+   "@multipleLanguages":{
+      "description":"Multiple languages text"
+   },
+   "unlimitedResponses":"Unlimited Responses",
+   "@unlimitedResponses":{
+      "description":"Unlimited responses text"
+   },
+   "chooseYourPlan":"Choose your plan",
+   "@chooseYourPlan":{
+      "description":"Choose your plan text"
+   },
+   "successfullySubscribed":"You have successfully subscribed",
+   "@successfullySubscribed":{
+      "description":"Successfully subscribed text"
+   },
+   "cancelAnytime":"Cancel anytime",
+   "@cancelAnytime":{
+      "description":"Cancel anytime text"
+   },
+   "subscriptionSummary":"Subscription Summary",
+   "@subscriptionSummary":{
+      "description":"Subscription Summary text"
+   },
+   "subscription":"Subscription",
+   "@subscription":{
+      "description":"Subscription text"
+   },
+   "amountPaid":"Amount Paid",
+   "@amountPaid":{
+      "description":"Amount paid text"
+   },
+   "nextPayment":"Next Payment",
+   "@nextPayment":{
+      "description":"Next Payment text"
+   },
+   "cancelSubscriptionText":"Cancel Subscription",
+   "@cancelSubscriptionText":{
+      "description":"Cancel subscription button text"
+   },
+   "cancelSubscriptionMessage":"You will still be entitled to premium offers until the end of your current subscription",
+   "@cancelSubscriptionMessage":{
+      "description":"Cancel subscription message"
+   },
+   "emmieAiUnavailableTitle":"Unknown Error",
+   "@emmieAiUnavailableTitle":{
+      "description":"Emmie AI is unavailable title"
+   },
+   "emmieAiUnavailableMessage":"Sorry, we've hit a snag",
+   "@emmieAiUnavailableMessage":{
+      "description":"Emmie AI is unavailable message"
+   },
+   "emmieAiUnavailableDesc":"Looks like Emmie AI service is unavailable. Please give it another try.",
+   "@emmieAiUnavailableDesc":{
+      "description":"Emmie AI is unavailable description"
+   },
+   "accountActivation":"Account Activation",
+   "@accountActivation":{
+      "description":"Account activation text"
+   },
+   "activateAccount":"Activate Account",
+   "@activateAccount":{
+      "description":"Activate account text"
+   },
+   "activateAccountMessage":"Your account has been scheduled for deletion. Would you like to reactivate it?",
+   "@activateAccountMessage":{
+      "description":"Activate account message"
+   },
+   "accountActivatedMessage":"Your account is now active. Let's continue from where we left off",
+   "@accountActivatedMessage":{
+      "description":"Account activated message"
+   },
+   "accountNotActivatedMessage":"There was an issue with activating your account. Let's give it another try",
+   "@accountNotActivatedMessage":{
+      "description":"Account not activated message"
+   },
+   "serviceUnavailableTitle":"Service Unavailable",
+   "@serviceUnavailableTitle":{
+      "description":"Service unavailable title"
+   },
+   "serviceUnavailableMessage":"We'll be back soon",
+   "@serviceUnavailableMessage":{
+      "description":"Service unavailable message"
+   },
+   "serviceUnavailableDesc":"Emmie AI is currently unavailable and will be back shortly. We apologize for any inconvenience.",
+   "@serviceUnavailableDesc":{
+      "description":"Service unavailable description"
+   },
+   "subscriptionsrvsUnavailableTitle":"Subscription Service Unavailable",
+   "@subscriptionsrvsUnavailableTitle":{
+      "description":"Subscription service unavailable title"
+   },
+   "subscriptionsrvsUnavailableMessage":"There's a subscription info loading issue. If you are currently subscribed, your subscription is safe. We apologize for any inconvenience.",
+   "@subscriptionsrvsUnavailableMessage":{
+      "description":"Subscription service unavailable message"
+   },
+   "languageAlreadySelected":"The language '{title}' has already been set",
+   "@languageAlreadySelected":{
+      "description":"Mssage for when a user reselect active language",
+      "placeholders": {
+         "title": {
+            "type": "String"
+         }
+      }
+   },
+   "languagesArePremiumFeature":"Languages are a premium feature. Please consider upgrading to premium.",
+   "@languagesArePremiumFeature":{
+      "description":"Languages are a premium feature message"
+   },
+   "defaultLanguage":"Default language",
+   "@defaultLanguage":{
+      "description":"Default language message"
+   },
+   "chatWithoutAds":"Chat Without Ads",
+   "@chatWithoutAds":{
+      "description":"Chat without ads text"
+   },
+   "modelResponseMessageSurfix":"Upgrade to premium and gain access to unlimited responses and messages!",
+   "@modelResponseMessageSurfix":{
+      "description":"Model response message prefix"
+   },
+   "responsesLimited":"You will receive limited responses ",
+   "@responsesLimited":{
+      "description":"Responses limited text"
+   },
+
+
+   "imageTextRecognitionFeature":"Image text recognition is a premium feature. Please consider upgrading to premium.",
+   "@imageTextRecognitionFeature":{
+      "description":"Image text recognition is a premium feature message"
+   },
+   "imageTextRecognition":"Image Text Recognition",
+   "@imageTextRecognition":{
+      "description":"Image text recognition message"
+   },
+   "camera":"Camera",
+   "@camera":{
+      "description":"Camera label"
+   },
+   "gallery":"Gallery",
+   "@gallery":{
+      "description":"Gallery label"
+   },
+   "buyPro":"Buy Pro",
+   "@buyPro":{
+      "description":"Buy pro label"
+   },
+   "imageTextRecognitionDescription":"Emmie AI is proficient in text recognition from images, opening up exciting possibilities for you.",
+   "@imageTextRecognitionDescription":{
+      "description":"Image text recognition description message"
+   },
+   "unableToRecognizeImageText":"The was an issue while extracting text from the image. Let's give it one more try!",
+   "@unableToRecognizeImageText":{
+      "description":"Unable to recognizeImageText text"
+   },
+
+
+
+   "freeTrialEndDate":"Enjoy your free trial until {explorationEndDate}",
+   "@freeTrialEndDate":{
+      "description":"The exploration/free trial end date.",
+      "placeholders": {
+         "explorationEndDate": {
+            "type": "String"
+         }
+      }
+   },
+   "goPremiumForAllBenefits":"Go premium to unlock all the benefits",
+   "@goPremiumForAllBenefits":{
+      "description":"On free trial go premium to get all the benefits."
+   },
+   "watchRewardedAds":"Watch ads to continue chatting for free ",
+   "@watchRewardedAds":{
+      "description":"On free trial watch ads to contunue chatting for free."
+   },
+   "youGetLimitedMessages":"You get limited free messages every day",
+   "@youGetLimitedMessages":{
+      "description":"On free trial get limited free messages every day."
+   }
+}

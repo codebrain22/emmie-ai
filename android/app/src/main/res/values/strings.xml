@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Emmie AI</string>
+    <string name="facebook_app_id">1560475837766680</string>
+    <string name="fb_login_protocol_scheme">fb1560475837766680</string>
+    <string name="facebook_client_token">9f67a0c9b76e762b60f7a15e47a2857d</string>
+    <!-- Added for flutter notifications -->
+    <string name="default_notification_channel_id">emmie_ai_default_channel</string>
+</resources>
