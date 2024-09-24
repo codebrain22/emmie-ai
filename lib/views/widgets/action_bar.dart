@@ -171,8 +171,8 @@ class ActionBarState extends ConsumerState<ActionBar> {
               padding: const EdgeInsets.symmetric(horizontal: 0),
               child: Column(
                 children: [
-                  if (!user!.subscribed && !onExploration) const BannerAds(),
-                  if (!user.subscribed && !onExploration) _freeMessagesIndicator(context, mediaQuery, user),
+                  // if (!user!.subscribed && !onExploration) const BannerAds(),
+                  if (!user!.subscribed && !onExploration) _freeMessagesIndicator(context, mediaQuery, user),
                   if (!user.subscribed && onExploration) _showExplorationEndDate(context, mediaQuery, user),
                   ClipRRect(
                     borderRadius: (user.subscribed)

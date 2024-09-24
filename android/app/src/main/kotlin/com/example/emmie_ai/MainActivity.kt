@@ -1,4 +1,4 @@
-package com.enactify.emmie_ai
+package com.enactify.emmie
 
 import io.flutter.embedding.android.FlutterActivity
 

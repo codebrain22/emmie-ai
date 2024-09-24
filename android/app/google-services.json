@@ -7,12 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1038350774945:android:8529f04afa59a2470f76e0",
+        "mobilesdk_app_id": "1:1038350774945:android:dd12684e522fe7710f76e0",
         "android_client_info": {
-          "package_name": "com.enactify.emmie_ai"
+          "package_name": "com.enactify.emmie"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1038350774945-ctun8pvuhfrae405kijun7ace9uob1t3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBmsE-B9d4evJXfJfUN9DOfaifWS3uByEw"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038350774945-ctun8pvuhfrae405kijun7ace9uob1t3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
