@@ -14,7 +14,23 @@
       },
       "oauth_client": [
         {
-          "client_id": "1038350774945-ctun8pvuhfrae405kijun7ace9uob1t3.apps.googleusercontent.com",
+          "client_id": "1038350774945-4p7ilabh6g0d4vpjbm1hvnaap12b6gva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enactify.emmie",
+            "certificate_hash": "d838bceaa0fa6946624831e4d2e5cd110470877a"
+          }
+        },
+        {
+          "client_id": "1038350774945-rd4rbt3l0tt6pjeq3mbtfof35n24st0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enactify.emmie",
+            "certificate_hash": "bba5af34ae6ae64d10012536da6b7fad6aa1b7fc"
+          }
+        },
+        {
+          "client_id": "1038350774945-k1h5tr4iv9ki1k9ic4qrevslij86mei5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
