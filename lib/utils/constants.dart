@@ -5,11 +5,11 @@ class Constants {
       'https://play.google.com/store/account/subscriptions?package=com.enactify.emmie&hl=en-US&ah=CdByNORFr61QcOOZZz5LSm9YFkY&pli=1';
   static const emmieAiTermsAndConditions = 'https://codebrain22.github.io/emmie-ai-privacy-policy/';
 
-  // static const bannerAdsUnitId = 'ca-app-pub-3940256099942544/6300978111';
-  static const bannerAdsUnitId = 'ca-app-pub-9766198417111710/5279944898';
+  static const bannerAdsUnitId = 'ca-app-pub-3940256099942544/6300978111';
+  // static const bannerAdsUnitId = 'ca-app-pub-9766198417111710/5279944898';
 
-  // static const rewardedAdsUnitId = 'ca-app-pub-3940256099942544/5224354917';
-  static const rewardedAdsUnitId = 'ca-app-pub-9766198417111710/6018311498';
+  static const rewardedAdsUnitId = 'ca-app-pub-3940256099942544/5224354917';
+  // static const rewardedAdsUnitId = 'ca-app-pub-9766198417111710/6018311498';
 
   static const appDefaultLanguage = 'en';
   static const appControlDocumentId = 'iVmhNwqZdEGO37kbLLOi';
