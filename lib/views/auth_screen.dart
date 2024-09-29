@@ -19,13 +19,19 @@ class AuthScreen extends HookConsumerWidget {
   const AuthScreen({super.key});
 
   /// Signs user in with Google.
-  void _signInWithGoogle({required BuildContext context, required WidgetRef ref}) {
-    ref.read(authControllerStateNotifierProvider.notifier).signInWithGoogle(context: context);
+  void _signInWithGoogle(
+      {required BuildContext context, required WidgetRef ref}) {
+    ref
+        .read(authControllerStateNotifierProvider.notifier)
+        .signInWithGoogle(context: context);
   }
 
   /// Signs user in with Facebook.
-  Future<void> _signInWithFacebook({required BuildContext context, required WidgetRef ref}) async {
-    await ref.read(authControllerStateNotifierProvider.notifier).signInWithFacebook(context: context);
+  Future<void> _signInWithFacebook(
+      {required BuildContext context, required WidgetRef ref}) async {
+    await ref
+        .read(authControllerStateNotifierProvider.notifier)
+        .signInWithFacebook(context: context);
   }
 
   @override
@@ -39,7 +45,8 @@ class AuthScreen extends HookConsumerWidget {
 
     final sizedBox = SizedBox(height: mediaQuery.height * 0.04);
 
-    ref.listen<AuthState>(authControllerStateNotifierProvider, (prevState, currState) {
+    ref.listen<AuthState>(authControllerStateNotifierProvider,
+        (prevState, currState) {
       if (currState is AuthStateLoading) {
         isLoading.value = true;
       } else if (currState is AuthStateSuccess) {
@@ -47,7 +54,8 @@ class AuthScreen extends HookConsumerWidget {
         if (user!.active) {
           Navigator.of(context).pushReplacementNamed(ChatScreen.routeName);
         } else {
-          Navigator.of(context).pushReplacementNamed(AccountActivationScreen.routeName);
+          Navigator.of(context)
+              .pushReplacementNamed(AccountActivationScreen.routeName);
         }
       } else if (currState is AuthStateError) {
         isLoading.value = false;
@@ -90,7 +98,7 @@ class AuthScreen extends HookConsumerWidget {
                 Positioned(
                   top: mediaQuery.height * 0.4,
                   child: const Text(
-                    'Welcome to Emmie AI',
+                    'Emmie AI Chatbot',
                     style: TextStyle(
                       color: AppColors.textLight,
                       fontSize: 25,
@@ -141,7 +149,7 @@ class AuthScreen extends HookConsumerWidget {
                     signIn: _signInWithFacebook,
                   ),
                   sizedBox,
-                  SizedBox(height: mediaQuery.height * 0.09),
+                  SizedBox(height: mediaQuery.height * 0.08),
                   InkWell(
                     onTap: () {
                       if (Platform.isAndroid) {
@@ -160,7 +168,8 @@ class AuthScreen extends HookConsumerWidget {
                       child: Text(
                         Constants.emmieAiDeclaration,
                         textAlign: TextAlign.center,
-                        style: TextStyle(color: AppColors.textFaded, fontSize: 12),
+                        style:
+                            TextStyle(color: AppColors.textFaded, fontSize: 12),
                       ),
                     ),
                   ),
@@ -183,7 +192,9 @@ class AuthScreen extends HookConsumerWidget {
     required Size mediaQuery,
     required ValueNotifier<bool> isLoading,
     required ValueNotifier<bool> isLoginWithSocialLogin,
-    required void Function({required BuildContext context, required WidgetRef ref}) signIn,
+    required void Function(
+            {required BuildContext context, required WidgetRef ref})
+        signIn,
   }) {
     return ElevatedButton(
       onPressed: () {
@@ -191,7 +202,6 @@ class AuthScreen extends HookConsumerWidget {
         signIn(context: context, ref: ref);
       },
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.white70,
         minimumSize: Size(mediaQuery.width, mediaQuery.height * 0.08),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10),
@@ -199,16 +209,23 @@ class AuthScreen extends HookConsumerWidget {
         elevation: 0,
       ),
       child: isLoading.value && isLoginWithSocialLogin.value
-          ? NotificationHandler(context: context, color: AppColors.textDark).showLoader()
+          ? NotificationHandler(context: context, color: AppColors.textLight)
+              .showLoader()
           : Center(
               child: Container(
                 constraints: const BoxConstraints(maxWidth: 250.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    Image.asset(icon, width: 25),
+                    Container(
+                        padding: const EdgeInsets.all(1),
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(50)),
+                        child: Image.asset(icon, width: 25)),
                     const SizedBox(width: 20.0),
-                    Text(label, style: const TextStyle(color: AppColors.textDark)),
+                    Text(label,
+                        style: const TextStyle(color: AppColors.textLight)),
                   ],
                 ),
               ),

@@ -324,7 +324,7 @@ class SettingsScreenState extends ConsumerState<SettingsScreen> {
                 const SizedBox(height: 2.0),
                 Center(
                   child: Text(
-                    '${AppLocalizations.of(context)!.appVersion} 1.1.2',
+                    '${AppLocalizations.of(context)!.appVersion} 1.1.4',
                     textAlign: TextAlign.center,
                     style: const TextStyle(fontSize: 12, color: AppColors.textFaded),
                   ),

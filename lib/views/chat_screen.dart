@@ -324,9 +324,9 @@ class ChatScreenState extends ConsumerState<ChatScreen> {
                               ),
                               borderRadius: BorderRadius.circular(4),
                             ),
-                            child: Text(
-                              AppLocalizations.of(context)!.buyPro,
-                              style: const TextStyle(
+                            child: const Text(
+                              'Go Pro',
+                              style: TextStyle(
                                 color: AppColors.textLight,
                                 fontWeight: FontWeight.bold,
                               ),
