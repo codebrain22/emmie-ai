@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "1038350774945-gs9vccnsqhk7rjjm7f42kdno5kmiupcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enactify.emmie",
+            "certificate_hash": "0571ae776cc10ee3ea6025faadf3a0051c6f1faf"
+          }
+        },
+        {
           "client_id": "1038350774945-rd4rbt3l0tt6pjeq3mbtfof35n24st0d.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
